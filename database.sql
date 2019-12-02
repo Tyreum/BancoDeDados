@@ -37,7 +37,7 @@ CREATE TABLE Pessoa (
   RG_Pessoa VARCHAR(12) NULL,
   CPF_Pessoa VARCHAR(14) NULL,
   PRIMARY KEY(idPessoa),
-  FOREIGN KEY (Tipo_Pessoa_idTipo_Pessoa) REFERENCES Pessoa(idTipo_Pessoa)
+  FOREIGN KEY (Tipo_Pessoa_idTipo_Pessoa) REFERENCES tipo_pessoa(idTipo_Pessoa)
 );
 
 CREATE TABLE Funcionario (
@@ -102,4 +102,3 @@ CREATE TABLE Aluguel (
   FOREIGN KEY(Cliente_idCliente) REFERENCES Cliente(idCliente),
   FOREIGN KEY(Funcionario_idFuncionario) REFERENCES Funcionario(idFuncionario)
 );
-

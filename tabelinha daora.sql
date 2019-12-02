@@ -39,8 +39,8 @@ INSERT INTO contato(Pessoa_idPessoa, TipoLocal_idTipoLocal, Telefone_contato, Ma
 INSERT INTO contato(Pessoa_idPessoa, TipoLocal_idTipoLocal, Telefone_contato, Mail_contato) values("1", "1", "1156691587", "");
 INSERT INTO contato(Pessoa_idPessoa, TipoLocal_idTipoLocal, Telefone_contato, Mail_contato) values("3", "2", "1156698877", "goliveira@terra.com.br");
 INSERT INTO contato(Pessoa_idPessoa, TipoLocal_idTipoLocal, Telefone_contato, Mail_contato) values("3", "3", "11998770028", "bcorrea@ig.com.br");
-INSERT INTO contato(Pessoa_idPessoa, TipoLocal_idTipoLocal, Telefone_contato, Mail_contato) values("3", "4", "11998887900", "jalmeida@bol.com.br");
-INSERT INTO contato(Pessoa_idPessoa, TipoLocal_idTipoLocal, Telefone_contato, Mail_contato) values("3", "5", "1156637895", "rlopes@hotmail.com.br");	
+INSERT INTO contato(Pessoa_idPessoa, TipoLocal_idTipoLocal, Telefone_contato, Mail_contato) values("4", "3", "11998887900", "jalmeida@bol.com.br");
+INSERT INTO contato(Pessoa_idPessoa, TipoLocal_idTipoLocal, Telefone_contato, Mail_contato) values("5", "3", "1156637895", "rlopes@hotmail.com.br");	
 
 INSERT INTO endereco(Pessoa_idPessoa, TipoLocal_idTipoLocal, Logradouro_Endereco, Numero_endereco, Bairro_Endereco, CEP_Endereco, Cidade_Endereco, Estado_endereco) values("1", "3", "Rua Demonte Risco", "220", "Interlagos", "04814-578", "São Paulo", "SP");
 INSERT INTO endereco(Pessoa_idPessoa, TipoLocal_idTipoLocal, Logradouro_Endereco, Numero_endereco, Bairro_Endereco, CEP_Endereco, Cidade_Endereco, Estado_endereco) values("2", "3", "Rua Nascimento de Moraes", "51", "Grajaú", "04922-510", "São Paulo", "SP");
